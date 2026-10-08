@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @import "tailwindcss";
+
+@theme {
+--color-bg-purple: #d1d8e7;
+--color-bg-blue: #F0FFFF;
+--color-text-slateblue: #6A5ACD;
+
+--color-blueone: #edf2fb;
+--color-bluetwo: #e2eafc;
+--color-bluethree: #d7e3fc;
+--color-bluefour: #ccdbfd;
+--color-bluefive: #c1d3fe;
+--color-bluesix: #b6ccfe;
+--color-blueseven: #abc4ff;
+--color-blueeight: #8eaffa;
+
+--color-text-darkblue: #7573d9;
+--color-blue: #5580e6;
+--color-bluedarkest: #4A76E0;
+
+--color-random: #597cc2;
+
+} 
+
+</style>
+</head>
+
+<body class="h-screen w-screen">
+
+    <!-- Header Section -->
+    <header
+        class="flex flex-col sm:flex-row sm:justify-between bg-blueone font-bold font-sans-serif px-6 border-b-2 border-blue p-5 sm:px-8 ">
+        
+        <h2 class="flex self-start text-blue text-2xl">Portfolio</h2>
+
+        <nav class="flex self-end sm:self-center gap-5 sm:gap-7 -mt-9 sm:-mt-0 h-9 items-center text-blueeight text-sm sm:text-base">
+            <a href="index.html"
+                class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">HOME</a>
+            <a href="projects.html"
+                class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">PROJECTS</a>
+            <a href="contacts.html"
+                class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">CONTACT</a>
+        </nav>
+
+        <div class="flex items-center self-end mt-3 sm:mt-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 sm:size-7 stroke-3 mr-3 text-blue">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+            <button
+                class="w-30 sm:w-36 bg-blue text-blueone h-7 sm:h-8 text-xs font-semibold tracking-wider hover:bg-bluedarkest transition-colors duration-200">DOWNLOAD_CV</button>
+        </div>
+
+    </header>
+
+    <!-- End of header section -->
+
+
+    <!-- Hero Section -->
+
+    <div
+        class="w-screen flex h-148 sm:h-125 grid sm:grid-cols-2 sm:grid-rows-[2_3fr] bg-blueone px-6 sm:px-8 text-center justify-center sm:text-left">
+
+        <p class="sm:col-span-2 text-base sm:text-lg text-blueeight h-10 mt-12 sm:mt-28">SELECTED WORKS - 2026</p>
+
+
+        <div class="bg-blueone font-sans-serif border-blue pt-4 sm:pt-0 -mt-36 sm:-mt-2  px-6 sm:px-0">
+            <h1 class="text-5xl sm:text-7xl h-20 sm:h-80 text-blue font-bold ">ARCHITECTURAL INTEGRITY &
+                BRUTALISM.</h1>
+        </div>
+
+        <div
+            class="w-100 sm:w-112 justify-self-center sm:justify-self-end border-t-3 pt-5 sm:border-t-0 sm:border-l-4 border-blue h-36 sm:h-37 font-bold -mt-14 sm:mt-1 sm:pt-0 px-6 sm:px-0">
+            <p
+                class="text-blueeight justify-self-center sm:justify-self-auto sm:text-left text-balance text-base w-100 sm:w-80 sm:pl-6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                voluptatu lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Amet
+                consectetur adipis ipsum dolor. Consectetur adipisicing.</p>
+
+            <div
+                class="mt-10 flex gap-8 sm:gap-0 justify-self-center sm:justify-self-auto sm:justify-between w-80 sm:w-118 sm:pr-8">
+                <button
+                    class="bg-blue text-blueone p-3 sm:p-4 w-53 border-t-3 border-l-3 border-bluedarkest hover:border-b-3 hover:border-r-3 hover:border-t-0 hover:border-l-0 hover:border-blueeight">Portfolio</button>
+                <button
+                    class="bg-bluefive text-blue p-3 sm:p-4 w-53 border-t-3 border-l-3 border-bluesix hover:border-b-3 hover:border-r-3 hover:border-t-0 hover:border-l-0 hover:border-bluethree">View
+                    More</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- End of Hero section -->
+
+    <!-- Statistics Section -->
+
+    <div
+        class="flex grid grid-cols-4 h-35 bg-bluetwo content-center text-center text-blueeight border-t-2 border-bluefour">
+
+        <div class="border-r-2 border-bluefour h-15">
+            <p>PROJECTS</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue pr-5">15+</h2>
+        </div>
+
+        <div class="border-r-2 border-bluefour h-15">
+            <p>AWARDS</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue pr-10">6</h2>
+        </div>
+
+        <div class="border-r-2 border-bluefour h-15">
+            <p>CERTIFICATES</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue pr-18">3</h2>
+        </div>
+
+        <div class="border-bluefour h-15">
+            <p>CLIENTS</p>
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue pr-5">21</h2>
+        </div>
+
+
+    </div>
+
+    <!-- End of Statistics section -->
+
+    <!-- Statistics Main -->
+
+    <div
+        class="grid block grid-cols-1 grid-rows-11 sm:grid-cols-4 sm:grid-rows-2 h-420 sm:h-230 justify-center bg-blueone gap-8 p-8 border-t-2 border-bluesix">
+
+        <div
+            class="col-span-1 sm:col-span-2 row-span-4 sm:row-span-2 bg-[url('Flower4.jpg')] hue-rotate-130 justify-items-center sm:justify-items-start sm:pl-10 text-center sm:text-left">
+            <div class="mt-48 sm:mt-160 text-blueone text-center sm:text-left">
+                <h5 class="text-sm sm:text-md">PROJECT 001</h5>
+                <h2 class="text-3xl sm:text-4xl font-bold sm:mt-2">NATURE AS DESIGN</h2>
+                <p class="mt-6 sm:mt-2 w-70 sm:w-100">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                    consectetur. </p>
+
+            </div>
+
+            <div
+                class="inline-flex gap-4 justify-center items-center sm:justify-start w-60 text-blueone hover:text-bluesix mt-6 -hue-rotate-130 transition-colors duration-200">
+                <a href="#CaseStudy" class="font-bold text-sm">VIEW
+                    PROJECT</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.4"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+
+            </div>
+        </div>
+
+        <div
+            class="text-center sm:text-left col-span-1 sm:col-span-2 row-span-3 sm:row-span-1 bg-bluethree grid grid-cols-1 sm:grid-cols-3 grid-rows-6 sm:grid-rows-4 border-b-2 border-blueseven px-9">
+
+            <h5
+                class="justify-self-center sm:justify-self-start col-span-1 sm:col-span-3 row-span-1 sm:h-22 sm:pt-13 text-blueeight text-base sm:text-lg mt-10 sm:mt-0">
+                METHODOLOGY</h5>
+            <h2
+                class=" justify-self-center sm:justify-self-start col-span-1 sm:col-span-3 row-span-2 sm:row-span-1 text-2xl sm:text-3xl font-bold sm:h-22 sm:-mt-6  w-80 sm:w-150 text-blue">
+                INTEGRATION &
+                STRUCTURAL ANALYTICS</h2>
+            <p
+                class="justify-self-center sm:justify-self-start col-span-1 sm:col-span-3 row-span-2 sm:row-span-1 -mt-6 w-80 h-36 sm:h-40 sm:-mt-12 sm:w-140 text-blueeight border-b-2 border-bluefive text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+
+            <div class="flex justify-self-center sm:justify-self-start gap-6 sm:gap-10 items-center w-80 sm:w-140 text-sm sm:text-base -mt-4 ">
+                <h6 class="col-span-1 row-span-1 border-b-3 border-blue sm:h-17 w-26 sm:w-42 sm:pt-9 text-blueeight">CAD
+                </h6>
+                <h6 class="col-span-1 row-span-1 border-b-3 border-blue sm:h-17 w-26 sm:w-42 sm:pt-9 text-blueeight">3D
+                    MAPPING</h6>
+                <h6 class="col-span-1 row-span-1 border-b-3 border-blue sm:h-17 w-26 sm:w-42 sm:pt-9 text-blueeight">
+                    SUSTAINABILITY
+                </h6>
+            </div>
+
+        </div>
+
+
+        <div
+            class="text-center sm:text-start col-span-1 row-span-2 sm:row-span-1 bg-bluetwo border-r-2 border-blueseven">
+            <h4 class=" text-blueeight sm:pl-8 pt-8 tracking-wider">LAB ARCHIVE</h4>
+            <h2 class="text-blue text-xl sm:pl-8 font-bold pt-1">SHADOW STUDIES</h2>
+            <img src="Flower8.jpg"
+                class="flex justify-self-center w-34 sm:w-42 h-34 sm:h-42 sm:float-right self-baseline mt-4 sm:mt-39 hue-rotate-140">
+        </div>
+
+        <div class="text-center sm:text-left col-span-1 row-span-2 sm:row-span-1 bg-blue border-2 flex text-blueone">
+            <div class="flex flex-col items-start w-60 m-auto h-60 gap-3 justify-center">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-8 self-center sm:self-start">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                </svg>
+
+                <h5 class="self-center sm:self-start text-xl font-bold text-wrap w-50">JOIN AND SUBSCRIBE TO OUR DESIGN
+                    CATELOGUE.</h5>
+                <button
+                    class="self-center sm:self-start border-2 p-2 w-32 font-bold text-xs mt-2 bg-none hover:bg-blueone text-blueone hover:text-blueeight transition-colors duration-200"><a
+                        href=#SUBSCRIBEHERE>SUBSCRIBE HERE</a></button>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <!-- End of Statistics Main -->
+
+    <!-- Current Projects -->
+    <section class="bg-blueone">
+
+        <div
+            class="w-screen flex flex-col sm:flex-row text-center sm:text-left sm:px-8 flex border-b-2 border-t-2 border-blue h-40 sm:h-30 sm:justify-between sm:mt-0">
+
+
+            <div>
+                <h5 class="text-base pt-3 sm:pt-5 text-blueeight">INDEX</h5>
+                <h1 class="text-4xl sm:text-5xl font-bold text-blue">CURRENT PROJECTS</h1>
+            </div>
+
+            <div>
+                <h5 class="pt-4 sm:pt-9 text-center sm:float-right text-blueeight">SORT BY</h5>
+                <h6 class="underline underline-offset-2 decoration-2 text-blue font-bold">YEAR: 2026</h6>
+            </div>
+
+        </div>
+
+
+        <div id="container"
+            class="flex grid grid-cols-1 sm:grid-cols-1 grid-rows-12 sm:grid-rows-3 mt-9 sm:mt-16 sm:gap-x-0px sm:gap-y-0.5 sm:bg-bluefour h-160 sm:h-65 w-105 sm:w-322 gap-8 m-auto m-auto">
+
+            <div id="project1"
+                class="flex flex-col sm:flex-row col-span-1 sm:col-span-4 row-span-4 sm:row-span-1 bg-bluethree sm:bg-blueone sm:gap-10 text-center sm:text-start items-center justify-evenly sm:justify-start sm:grid sm:grid-cols-[50px_350px_125px_200px] sm:grid-rows-1 sm:pl-6">
+
+            
+                <p class="text-blue font-semibold">001</p>
+                <h4 class="text-2xl font-bold text-blue">VORTEX HOUSING COMPLEX</h4>
+                <p class="text-blueeight">STOCKHOLM, SE</p>
+                <div class="flex gap-3 text-blue text-xs font-semibold">
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">URBAN</p>
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">RESIDENTIAL</p>
+                </div>
+            </div>
+
+
+            <div id="project2"
+                class="flex flex-col sm:flex-row col-span-1 sm:col-span-4 row-span-4 sm:row-span-1 bg-bluethree sm:bg-blueone sm:gap-10 text-center sm:text-start items-center justify-evenly sm:justify-start sm:grid sm:grid-cols-[50px_350px_125px_200px] sm:grid-rows-1 sm:pl-6">
+
+                <p class="text-blue font-semibold">002</p>
+                <h4 class="text-2xl font-bold text-blue">THE LINEAR OBSERVATORY</h4>
+                <p class="text-blueeight">ATACAMA, CL</p>
+                <div class="flex gap-3 text-blue text-xs  font-semibold">
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">SCIENCE</p>
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">MINIMALIST</p>
+                </div>
+            </div>
+
+
+
+            <div id="project3"
+                class="flex flex-col sm:flex-row col-span-1 sm:col-span-4 row-span-4 sm:row-span-1 bg-bluethree sm:bg-blueone sm:gap-10 text-center sm:text-start items-center justify-evenly sm:justify-start sm:grid sm:grid-cols-[50px_350px_125px_200px] sm:grid-rows-1 sm:pl-6">
+
+                <p class="text-blue font-semibold">003</p>
+                <h4 class="text-2xl font-bold text-blue">BRUTALIST ATRIUM</h4>
+                <p class="text-blueeight">BERLIN, DE</p>
+                <div class="flex gap-3 text-blue text-xs  font-semibold">
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">PUBLIC</p>
+                    <p class="p-1 px-2 bg-blueone sm:bg-bluethree">INTERIOR</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+
+        <div class="flex flex-col h-110 sm:h-140 w-screen mt-9 place-items-center bg-blue gap-15 justify-center mt-17">
+            <h1
+                class="text-5xl sm:text-7xl font-bold w-100 sm:w-220 text-blueone text-center tracking-tighter">
+                STAY
+                UPDATED ON THE LATEST PROJECTS 26.</h1>
+
+            <div class="flex items-center w-100 sm:w-150">
+
+                <input type="email" placeholder="EMAIL ADDRESS"
+                    class="border-b-2 border-blueone pb-3 pl-2 w-100 sm:w-150 font-bold text-md text-bluefour tracking-wider">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.4"
+                    stroke="currentColor" class="size-6 text-blueone -ml-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+
+
+
+            </div>
+            
+
+            
+
+            <div class="flex flex-row gap-20 justify-center list-none text-blueone">
+                <li class="tracking-widest hover:skew-4 transition-skew duration-100"><a href="Journal">JOURNAL</a></li>
+                <li class="tracking-widest hover:skew-4 transition-skew duration-100"><a href="Notes">NOTES</a></li>
+                <li class="tracking-widest hover:skew-4 transition-skew duration-100"><a href="Twitter">TWITTER</a></li>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End of current projects -->
+
+
+
+    <footer class="bg-bluethree p-5 flex justify-between items-center text-xs px-4 sm:px-8">
+        
+        <p class="flex text-blue self-end">@ 2026 Portfolio All Rights Reserved</p>
+        <nav class="flex sm:flex-row items-end text-blueeight font-bold gap-4">
+            <a href="index.html">INSTAGRAM</a>
+            <a href="projects.html">LINKEDIN</a>
+            <a href="contacts.html">GITHUB</a>
+        </nav>
+        
+    </footer>
+
+
+</body>
+
+</html>
