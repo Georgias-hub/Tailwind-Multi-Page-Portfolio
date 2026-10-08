@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @import "tailwindcss";
+
+@theme {
+--color-bg-purple: #d1d8e7;
+--color-bg-blue: #F0FFFF;
+--color-text-slateblue: #6A5ACD;
+
+--color-blueone: #edf2fb;
+--color-bluetwo: #e2eafc;
+--color-bluethree: #d7e3fc;
+--color-bluefour: #ccdbfd;
+--color-bluefive: #c1d3fe;
+--color-bluesix: #b6ccfe;
+--color-blueseven: #abc4ff;
+--color-blueeight: #8eaffa;
+
+--color-text-darkblue: #7573d9;
+--color-blue: #5580e6;
+--color-bluedarkest: #4A76E0;
+
+--color-random: #597cc2;
+
+} 
+
+</style>
+</head>
+
+<body class="h-screen w-screen">
+        <!-- Header Section -->
+<header class="flex flex-col sm:flex-row bg-blueone font-bold font-sans-serif  sm:justify-between p-5 border-b-2 border-blue sm:items-center px-6 sm:px-8">
+    
+    <h2 class="flex self-start text-blue text-2xl">Portfolio</h2>
+    
+    <div class="flex flex-col sm:flex-row self-end sm:self-center sm:inline-flex  sm:items-center">
+    
+    <nav class="flex items-center text-blueeight text-sm sm:text-base sm:mr-8 gap-5 sm:gap-7 h-9 -mt-9 sm:-mt-0">
+
+    <a href="index.html" class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">HOME</a>
+    <a href="projects.html" class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">PROJECTS</a>
+    <a href="contacts.html" class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">CONTACT</a>
+        </nav>
+
+<button class="self-end mt-3 sm:mt-0 w-30 sm:w-36  bg-blue text-blueone h-7 sm:h-8 text-xs font-semibold tracking-wider hover:bg-bluedarkest transition-colors duration-200">DOWNLOAD_CV</button>
+</div>
+
+    </header>
+
+    <!-- End of Header Section -->
+
+    <!-- Main -->
+
+    <!-- Grid -->
+
+    <section class="w-screen bg-blueone h-878 sm:h-325 p-10 px-6 sm:px-8">
+
+        <div class="flex flex-col w-[100%] sm:w-170 text-center sm:text-start border-b-3 sm:border-b-0 sm:border-l-4 border-blue h-40 sm:pl-8">
+        <h1 class="text-4xl sm:text-5xl font-bold text-blue">SELECTED_WORKS</h1>
+        <p class="pt-5 self-center sm:self-start text-base text-blueeight w-96 sm:w-140">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis eos tempora placeat, enim minus quas, voluptatum sunt repellat culpa ipsa beatae. - 2026</p>
+       </div>
+
+        <div id="container" class="flex m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 h-240 w-102 text-center sm:text-start sm:w-322  mt-10 gap-7 sm:gap-0 border-0 sm:border-1 border-bluefive">
+            
+         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center sm:text-start">
+
+            <img class="h-50 w-95 m-auto object-cover" src="Flower4.JPG">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">TAILWIND WEBSITE</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_001</p>
+            </div>
+
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+
+         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center sm:text-start">
+            <img class="h-50 w-95 m-auto">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">FLORAL SHOP</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_002</p>
+            </div>
+
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+            
+         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive">
+            <img class="h-50 w-95 m-auto">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">CALCULATOR</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_003</p>
+            </div>
+
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+
+         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive">
+            <img class="h-50 w-95 m-auto">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">TASK LIST</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_004</p>
+            </div>
+            
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+
+         <div class="flex flex-col col-span-1 row-span-1 border-2 sm:border-1 border-bluefive p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 content-center sm:text-start">
+            <img class="h-50 w-95 m-auto">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">PROJECT TITLE</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_005</p>
+            </div>
+            
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+
+         <div class="flex flex-col col-span-1 row-span-1 border-2 sm:border-1 border-bluefive p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 text-center sm:text-start">
+            <img class="h-50 w-95 m-auto">
+
+            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <h4 class="text-xl font-bold text-blue">PROJECT TITLE</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_006</p>
+            </div>
+
+            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            
+            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
+            <h6 class="mr-4">#SYSTEMS</h6>
+            <h6>#TYPOGRAPHY</h6>
+            </div>
+         </div>
+
+</div>
+</section>
+<!-- End of Grid -->
+
+<div class="flex flex-col sm:flex-row  bg-blueone sm:px-8 sm:pb-18 pb-8">
+    
+   <div class="flex flex-row border-t-2 h-11 justify-between w-screen m-auto sm:ml-0 sm:w-160 items-end border-bluesix text-blue font-bold text-xs">
+    <h6 class="pl-1">ARCHIVE_SECTION_END</h6>
+    <h6 class="pr-1">VIEWING_PAGE_01_OF_04</h6>
+    </div>
+
+    <button class="ml-54 sm:ml-0 border-2  h-16 w-60 font-bold text-blue hover:bg-blueseven transition-colors duration-200 mt-10 sm:mt-0 ">LOAD_NEXT_ENTRIES</button>
+</div>
+    
+
+<!-- End of Main -->
+
+
+<!-- Footer -->
+
+    <footer class="w-screen flex bg-bluethree p-4 sm:p-8 px-4 sm:px-8 flex-col sm:flex-row sm:justify-between items-center text-xs border-t-3 border-blue gap-5 sm:gap-0">
+
+   <p class="flex order-2 sm:order-1 text-blue">@ 2026 Portfolio All Rights Reserved</p>
+    
+   <nav class="flex order-1 sm:order-2 text-blueeight font-bold gap-10 sm:gap-8">
+    <a href="index.html" class="underline decoration-2">INSTAGRAM</a>
+    <a href="projects.html" class=" underline decoration-2">LINKEDIN</a>
+    <a href="cv.html" class=" underline decoration-2">READCV</a>
+    <a href="contacts.html" class=" underline decoration-2">GITHUB</a>
+        </nav>
+        
+
+       
+</footer>
+
+</body>
+</html>
