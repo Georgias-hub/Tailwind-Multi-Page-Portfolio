@@ -34,15 +34,15 @@
 </style>
 </head>
 
-<body class="h-screen w-screen">
+<body class="h-auto w-screen">
         <!-- Header Section -->
 <header class="flex flex-col sm:flex-row bg-blueone font-bold font-sans-serif  sm:justify-between p-5 border-b-2 border-blue sm:items-center px-6 sm:px-8">
     
-    <h2 class="flex self-start text-blue text-2xl">Portfolio</h2>
+    <h2 class="flex self-start text-blue max-sm:text-lg text-2xl">Portfolio</h2>
     
     <div class="flex flex-col sm:flex-row self-end sm:self-center sm:inline-flex  sm:items-center">
     
-    <nav class="flex items-center text-blueeight text-sm sm:text-base sm:mr-8 gap-5 sm:gap-7 h-9 -mt-9 sm:-mt-0">
+    <nav class="flex items-center text-blueeight text-sm sm:text-base sm:mr-8 gap-5 sm:gap-7 h-9 max-sm:-mt-8  -mt-9 sm:-mt-0">
 
     <a href="index.html" class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">HOME</a>
     <a href="projects.html" class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">PROJECTS</a>
@@ -60,133 +60,138 @@
 
     <!-- Grid -->
 
-    <section class="w-screen bg-blueone h-878 sm:h-325 p-10 px-6 sm:px-8">
+    <main class="w-screen bg-blueone h-auto  p-6 sm:p-8 lg:py-10">
 
-        <div class="flex flex-col w-[100%] sm:w-170 text-center sm:text-start border-b-3 sm:border-b-0 sm:border-l-4 border-blue h-40 sm:pl-8">
+        <div class="flex flex-col w-[100%]  text-center md:text-start border-b-3 md:border-b-0 md:border-l-4 border-blue h-auto md:pl-8">
         <h1 class="text-4xl sm:text-5xl font-bold text-blue">SELECTED_WORKS</h1>
-        <p class="pt-5 self-center sm:self-start text-base text-blueeight w-96 sm:w-140">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis eos tempora placeat, enim minus quas, voluptatum sunt repellat culpa ipsa beatae. - 2026</p>
+        <p class="py-5 lg:py-0 lg:pt-4 self-center md:self-start text-base text-blueeight w-[90%] sm:w-140">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis eos tempora placeat, enim minus quas, voluptatum sunt repellat culpa ipsa beatae. - 2026</p>
        </div>
 
-        <div id="container" class="flex m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 h-240 w-102 text-center sm:text-start sm:w-322  mt-10 gap-7 sm:gap-0 border-0 sm:border-1 border-bluefive">
+
+
+
+        <section id="container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-auto w-auto gap-7 sm:gap-0 border-0 sm:border-1 border-bluefive my-6 sm:my-8 lg:my-10">
             
-         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center sm:text-start">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6 h-auto w-auto">
 
-            <img class="h-50 w-95 m-auto object-cover" src="Flower4.JPG">
+            <img class="h-50 w-90 m-auto object-cover" src="Flower4.JPG">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
             <h4 class="text-xl font-bold text-blue">TAILWIND WEBSITE</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_001</p>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold p-1 text-center">ID_001</p>
             </div>
 
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            <p class="text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
 
-         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center sm:text-start">
-            <img class="h-50 w-95 m-auto">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6">
+            <img class="h-50 w-90 m-auto object-cover" src="Flower4.JPG">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <div class="flex flex-col md:flex-row  justify-between items-center gap-3">
             <h4 class="text-xl font-bold text-blue">FLORAL SHOP</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_002</p>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold  p-1 text-center">ID_002</p>
             </div>
 
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            <p class="text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
             
-         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive">
-            <img class="h-50 w-95 m-auto">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6">
+            <img class="h-50 w-90 m-auto">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
             <h4 class="text-xl font-bold text-blue">CALCULATOR</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_003</p>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold p-1 text-center">ID_003</p>
             </div>
 
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            <p class= "text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row  text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
 
-         <div class="flex flex-col col-span-1 row-span-1 p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive">
-            <img class="h-50 w-95 m-auto">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6">
+            <img class="h-50 w-90 m-auto">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
-            <h4 class="text-xl font-bold text-blue">TASK LIST</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_004</p>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+            <h4 class="text-xl font-bold text-blue">PROJECT</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold p-1 text-center">ID_003</p>
             </div>
+
+            <p class= "text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
-            
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row  text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
 
-         <div class="flex flex-col col-span-1 row-span-1 border-2 sm:border-1 border-bluefive p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 content-center sm:text-start">
-            <img class="h-50 w-95 m-auto">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6">
+            <img class="h-50 w-90 m-auto">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
-            <h4 class="text-xl font-bold text-blue">PROJECT TITLE</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_005</p>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+            <h4 class="text-xl font-bold text-blue">PROJECT</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold p-1 text-center">ID_003</p>
             </div>
+
+            <p class= "text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
-            
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row  text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
 
-         <div class="flex flex-col col-span-1 row-span-1 border-2 sm:border-1 border-bluefive p-6 bg-blueone hover:bg-bluethree transition-colors duration-200 text-center sm:text-start">
-            <img class="h-50 w-95 m-auto">
+         <div class="flex flex-col col-span-1 row-span-1 p-7 bg-blueone hover:bg-bluethree transition-colors duration-200 border-2 sm:border-1 border-bluefive text-center md:text-start gap-6">
+            <img class="h-50 w-90 m-auto">
 
-            <div class="flex flex-col sm:flex-row pt-8 justify-between items-center">
-            <h4 class="text-xl font-bold text-blue">PROJECT TITLE</h4>
-            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold mt-3 sm:mt-0 p-1 text-center">ID_006</p>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+            <h4 class="text-xl font-bold text-blue">PROJECT</h4>
+            <p class="border-2 w-15 text-xs content-center border-bluefive text-blueseven font-bold p-1 text-center">ID_003</p>
             </div>
 
-            <p class="pt-4 text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
+            <p class= "text-blueeight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ipsam dolore numquam fuga nobis odio a aspernatur. Sint sed modi obcaecati architecto atque.</p>
             
-            <div class="flex flex-row pt-8 text-xs text-blueseven justify-center sm:justify-start">
-            <h6 class="mr-4">#SYSTEMS</h6>
+            <div class="flex flex-row  text-xs text-blueseven justify-center md:justify-start gap-3">
+            <h6 class="">#SYSTEMS</h6>
             <h6>#TYPOGRAPHY</h6>
             </div>
          </div>
 
-</div>
-</section>
+      </section>
+
 <!-- End of Grid -->
 
-<div class="flex flex-col sm:flex-row  bg-blueone sm:px-8 sm:pb-18 pb-8">
+<div class="flex flex-col md:flex-row bg-blueone h-auto md:justify-between md:items-center gap-0 md:gap-0 lg:py-6">
     
-   <div class="flex flex-row border-t-2 h-11 justify-between w-screen m-auto sm:ml-0 sm:w-160 items-end border-bluesix text-blue font-bold text-xs">
-    <h6 class="pl-1">ARCHIVE_SECTION_END</h6>
-    <h6 class="pr-1">VIEWING_PAGE_01_OF_04</h6>
+   <div class="flex flex-row border-t-2 h-16 lg:mt-12 justify-between lg:items-center w-auto md:w-[50%] border-bluesix text-blue font-bold text-xs">
+    <h6 class="pt-2 lg:pt-0">ARCHIVE_SECTION_END</h6>
+    <h6 class="pt-2 lg:pt-0">VIEWING_PAGE_01_OF_04</h6>
     </div>
 
-    <button class="ml-54 sm:ml-0 border-2  h-16 w-60 font-bold text-blue hover:bg-blueseven transition-colors duration-200 mt-10 sm:mt-0 ">LOAD_NEXT_ENTRIES</button>
+    <div class="flex justify-end h-auto  w-auto md:w-[50%]">
+          <button class="border-2 h-16 w-60 font-bold text-blue hover:bg-blueseven transition-colors duration-200  ">LOAD_NEXT_ENTRIES</button>
+          </div>
 </div>
-    
+    </main>
 
 <!-- End of Main -->
 
 
 <!-- Footer -->
 
-    <footer class="w-screen flex bg-bluethree p-4 sm:p-8 px-4 sm:px-8 flex-col sm:flex-row sm:justify-between items-center text-xs border-t-3 border-blue gap-5 sm:gap-0">
+    <footer class="w-screen flex bg-bluethree p-4 sm:p-8  flex-col sm:flex-row sm:justify-between items-center text-xs border-t-3 border-blue gap-5 sm:gap-0">
 
    <p class="flex order-2 sm:order-1 text-blue">@ 2026 Portfolio All Rights Reserved</p>
     
