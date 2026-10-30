@@ -35,31 +35,33 @@
 </head>
 
 <body class="h-auto w-screen">
+  
   <!-- Header Section -->
   <header
     class="flex flex-col sm:flex-row bg-blueone font-bold font-sans-serif  sm:justify-between p-5 border-b-2 border-blue sm:items-center px-6 sm:px-8">
 
-    <h2 class="flex self-start text-blue text-2xl">Portfolio</h2>
+    <h2 class="flex self-start text-blue max-sm:text-lg  text-2xl">Portfolio</h2>
 
     <div class="flex flex-col sm:flex-row self-end sm:self-center sm:inline-flex  sm:items-center">
 
-      <nav class="flex items-center text-blueeight text-sm sm:text-base sm:mr-8 gap-5 sm:gap-7 h-9 -mt-9 sm:-mt-0">
+      <nav
+        class="flex items-center text-blueeight text-sm sm:text-base sm:mr-8 gap-5 sm:gap-7 h-9 -mt-9 sm:-mt-0 max-sm:-mt-8 ">
 
         <a href="index.html"
-          class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">HOME</a>
+          class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200 hover:pb-2">HOME</a>
         <a href="projects.html"
-          class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">PROJECTS</a>
+          class="hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200 hover:pb-2">PROJECTS</a>
         <a href="contacts.html"
-          class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200">CONTACT</a>
+          class=" hover:underline underline-offset-6 decoration-2 hover:text-blue transition-colors duration-200 hover:pb-2">CONTACT</a>
       </nav>
-      <!-- line up Download CV text with nav links -->
+     
       <button
         class="self-end mt-3 sm:mt-0 w-30 sm:w-36  bg-blue text-blueone h-7 sm:h-8 text-xs font-semibold tracking-wider hover:bg-bluedarkest transition-colors duration-200">DOWNLOAD_CV</button>
     </div>
   </header>
 
   <!-- Main -->
-  <!-- w-screen bg-blueone sm:bg-bluethree md:bg-bluefive lg:bg-blue-seven h-550  sm:h-345 px-6 sm:px-8 pt-14 -->
+
 
   <main class="w-screen h-auto bg-blueone h-auto p-6 sm:p-8 lg:py-10">
 
@@ -71,34 +73,22 @@
       <h1 class="text-6xl sm:text-8xl font-bold text-blue pb-4">LEAVE YOUR <span
           class="underline decoration-4 italic text-blueeight">MARK.</span></h1>
 
-      <p class="self-center lg:self-start text-blueeight text-base sm:text-sm sm:font-semibold w-[90%] sm:w-160">CURRENTLY
+      <p class="self-center lg:self-start text-blueeight text-base sm:text-sm sm:font-semibold w-[90%] sm:w-160">
+        CURRENTLY
         EXPLORING THE INTERSECTION OF TECHTONIC MATERIALITY AND DIGITAL INTERFACES. OPEN FOR ARCHITECTURAL
         VISUALISATIONS, FULL-STACK COLLABORATIONS, AND TECHNICAL DIALOGUE.</p>
     </div>
 
-    <!-- grid -->
+
     <section
       class="flex flex-col lg:flex-row gap-6 md:gap-14 my-10 lg:pt-10 lg:pb-5 bg-blueone border-t-2 border-bluesix h-auto w-auto">
 
-      <!-- pt-13 pb-13 sm:pb-0 -->
+
       <form
         class="flex flex-row flex-wrap h-auto lg:h-[78%] w-[100%] lg:w-auto bg-bluetwo border-3 border-bluesix font-bold gap-8 lg:gap-12 justify-center justify-start p-12 mt-10 lg:mt-0 lg:mx-0 ">
 
 
-        <!-- <div class="flex flex-col sm:flex-row gap-4 lg:gap-5 border-2">
 
-          <div class="flex flex-col gap-4 border-2 w-[50%]">
-          <label for="nameid" class="text-blue text-xs">FULL NAME</label>
-          <input type="name" id="nameid" placeholder="FULL NAME"
-            class="border-2 border-bluesix text-blueeight w-[100%] sm:w-auto lg:w-75 h-15 ">
-            </div>
-
-           div class="flex flex-col gap-4 sm:gap-5 mt-7 sm:mt-0"> 
-           <div class="flex flex-col gap-4 w-[50%]">
-          <label for="emailid" class="text-blue text-xs">EMAIL</label>
-          <input type="email" id="emailid" placeholder="EMAIL" class="border-2 border-bluesix text-blueeight w-[100%] sm:w-auto lg:w-75 h-15">
-          </div>
-        </div> -->
         <div class="flex flex-col gap-4 w-auto grow">
           <label for="nameid" class="text-blue text-xs">FULL NAME</label>
           <input type="name" id="nameid" placeholder="FULL NAME"
@@ -111,9 +101,9 @@
             class="border-2 border-bluesix text-blueeight w-[100%] pl-1 h-15">
         </div>
 
-        <!-- <section class="flex flex-col gap-10 sm:gap-15 items-center sm:items-start"> -->
 
-        <!-- <div class="flex flex-col gap-5 mt-7 sm:mt-0"> -->
+
+
         <div class="flex flex-col gap-4  w-[100%]">
           <label for="subjectid" class="text-blue text-xs">SUBJECT</label>
           <input type="text" id="subjectid" placeholder="SUBJECT"
@@ -129,29 +119,30 @@
 
 
 
-       
-          <button
+
+        <button
           class="flex flex-row gap-6 items-center place-content-center bg-blue shadow-none hover:shadow-md shadow-blueseven transition-shadow duration-100 p-4 max-sm:text-sm w-[80%] sm:w-[60%] h-16 mt-7 tracking-widest text-blueone transition-shadow duration-200"><a
             href=#INITIALISECONTACT>INITIALISE CONTACT</a><span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
               viewBox="0 0 24 24" stroke-width="2.4" stroke="currentColor" class="size-6 text-blueone">
               <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
             </svg></span></button>
-            </div>
+        </div>
 
-       
+
 
       </form>
 
       <!--Info Block -->
 
-      <section id="infoblock" class="flex flex-col items-center content-center lg:items-start w-[100%] lg:w-auto h-[100%]px-8 lg:px-0 gap-6 mt-6 md:mt-0">
+      <section id="infoblock"
+        class="flex flex-col items-center content-center lg:items-start w-[100%] lg:w-auto h-[100%]px-8 lg:px-0 gap-6 mt-6 md:mt-0">
 
         <div class="flex flex-row gap-4  items-center w-[100%]">
           <hr class="w-11 h-1 bg-blueeight border-0">
           <h6 class="font-bold text-xs text-blueeight">GEOGRAPHIC NODE</h6>
         </div>
 
-        
+
         <div class="flex flex-col gap-3 font-bold w-[100%] ">
           <h2 class="text-blue text-2xl">METRO_STATION_404</h2>
           <p class="w-45 text-sm text-blueseven">LOCATION: DOWNTOWN 02 ZURICH, SWITZERLAND</p>
@@ -159,7 +150,7 @@
 
         <!-- map -->
 
-        <div class="w-90 sm:w-105 md:w-120 lg:w-[100%] h-65 md:h-80 lg:h-68  sm:self-start ">
+        <div class="w-[90%] sm:w-105 md:w-120 lg:w-[100%] h-60 sm:h-70 md:h-80 lg:h-68  self-start ">
           <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE" title="Google Maps Location"
             width="100%" height="100%" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
             sandbox="allow-scripts allow-same-origin allow-popups">
@@ -175,15 +166,18 @@
           </div>
 
           <div class="font-bold text-lg">
-            
-            <h2 class="flex flex-row justify-between items-center text-blue border-b-2 border-bluefour p-4 px-0 sm:w-[60%] lg:w-[100%]">
+
+            <h2
+              class="flex flex-row justify-between items-center text-blue border-b-2 border-bluefour p-4 px-0 sm:w-[60%] lg:w-[100%]">
               EMAIL@STUDIOARCHIVE.CO.UK<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                   stroke-width="2" stroke="currentColor" class="size-4.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg></span>
             </h2>
 
-            <h2 class="flex flex-row justify-between items-center text-blue border-b-2 border-bluefour p-4 px-0 sm:w-[60%] lg:w-[100%]">+44
+            <h2
+              class="flex flex-row justify-between items-center text-blue border-b-2 border-bluefour p-4 px-0 sm:w-[60%] lg:w-[100%]">
+              +44
               3784838445<span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                   stroke="currentColor" class="size-4.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -226,7 +220,7 @@
         </div>
 
       </section>
-      </section>
+    </section>
 
 
   </main>
