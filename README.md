@@ -1,5 +1,5 @@
 # Tailwind-Multi-Page-Portfolio-
-A multi-page portolio webiste created using a Tailwind CSS framework. The design is using a Brutalist aesthetic throughout with custom monochromatic colour themes.
+A multi-page portolio webiste created using a Tailwind CSS framework. The design is using a Brutalist aesthetic throughout with custom monochromatic colour themes. https://georgias-hub.github.io/Tailwind-Multi-Page-Portfolio/
 
 I added a Tailwind Style type in the Head section of each page with @theme to create the custom colours. I then referred to these when adding styles to my elements.
 
